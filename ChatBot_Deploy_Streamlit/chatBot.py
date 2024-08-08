@@ -9,7 +9,7 @@ import google.generativeai as genai
 # load_dotenv()
 
 # Configure the gemini in local
-genai.configure(api_key="AIzaSyDCsgDJb_sTVIghLanZ_9gCas_S585ZTCU")
+genai.configure(api_key="YOUR_GEMINI_API_KEY_HERE")
 
 # Initialize the Streamlit app
 st.set_page_config(page_title="Basic Chatbot Application")
